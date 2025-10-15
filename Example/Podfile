@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CNLiveManager_Example' do
+  pod 'CNLiveManager', :path => '../'
+
+  target 'CNLiveManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
